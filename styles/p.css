@@ -1,0 +1,100 @@
+.body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transform: translateX(40%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5%;
+  width: max-content;
+  overflow: hidden;
+}
+.container > .col .box {
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.5s ease-in;
+}
+.container > .col > .box:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+.col1,
+.col2,
+.col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: max-content;
+  height: max-content;
+}
+.col1 {
+  align-items: flex-end;
+  justify-content: center;
+}
+.col3 {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.col1 > .box1 {
+  width: 113px;
+  height: 113px;
+}
+.col1 > .box2 {
+  width: 178px;
+  height: 176px;
+}
+.col1 > .box3 {
+  width: 113px;
+  height: 131px;
+}
+.col1 > .box4 {
+  width: 113px;
+  height: 130px;
+}
+
+.col2 > .box1 {
+  width: 132px;
+  height: 272px;
+}
+.col2 > .box2 {
+  width: 132px;
+  height: 131px;
+}
+.col2 > .box3 {
+  width: 132px;
+  height: 222px;
+}
+
+.col3 > .box1 {
+  width: 96px;
+  height: 138px;
+}
+
+.col3 > .box2 {
+  width: 144px;
+  height: 169px;
+}
+.col3 > .box3 {
+  width: 160px;
+  height: 140px;
+}
+.col3 > .box4 {
+  width: 70px;
+  height: 64px;
+}
+
+.box {
+  /* background: #d9d9d9; */
+  background: transparent;
+  border-radius: 11px;
+  /* border: 1px solid red; */
+  position: relative;
+  border: 1px solid orange;
+  background: url('https://plus.unsplash.com/premium_photo-1672281090684-06f42ed9827f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80');
+}
