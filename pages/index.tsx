@@ -1,13 +1,15 @@
 import React from "react";
 // import HeroCarousal from "../components/HeroCarousal";
 // import About from "../components/About";
-import P from "../components/p";
+import Grid from "../components/Grid";
+// import P from "../components/p";
 
 const index = () => {
   return (
     // <HeroCarousal />
     // <About />
-    <P />
+    // <P />
+    <Grid />
   );
 };
 
